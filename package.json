@@ -1,0 +1,20 @@
+{
+    "name": "nokit-snippets",
+    "publisher": "houfeng",
+    "description": "nokit-snippets",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "0.0.1"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/nokit.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "nokit-controller": {
+        "prefix": "controller",
+        "body": [
+            "/**",
+            " * ${The}Controller",
+            " **/",
+            "var ${The}Controller = function () { };",
+            "",
+            "/**",
+            " * 初始化",
+            " **/",
+            "${The}Controller.pototype.init = function () {",
+            "\tvar self = this;",
+            "\tself.ready();",
+            "}",
+            "",
+            "/**",
+            " * 默认 action",
+            " **/",
+            "${The}Controller.pototype.index = function () {",
+            "\tvar self = this;",
+            "\tself.render(\"${view}\");",
+            "}",
+            "$0"
+        ],
+        "description": "创建一个 Nokit MVC Controller"
+    }
+}
