@@ -1,6 +1,6 @@
 {
-    "nokit-controller": {
-        "prefix": "controller",
+    "nokit-mvc-controller": {
+        "prefix": "nokit-mvc-controller",
         "body": [
             "/**",
             " * ${The}Controller",
