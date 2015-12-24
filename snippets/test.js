@@ -18,3 +18,5 @@ HomeController.pototype.index = function () {
     var self = this;
     self.render("view");
 }
+
+module.exports = HomeController;

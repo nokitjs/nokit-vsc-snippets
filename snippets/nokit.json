@@ -22,6 +22,37 @@
             "\tvar self = this;",
             "\tself.render(\"${view}\");",
             "}",
+            "",
+            "module.exports = ${The}Controller;",
+            "$0"
+        ],
+        "description": "创建一个 Nokit MVC Controller"
+    },
+    "nokit-rest-controller": {
+        "prefix": "nokit-mvc-controller",
+        "body": [
+            "/**",
+            " * ${The}Controller",
+            " **/",
+            "var ${The}Controller = function () { };",
+            "",
+            "/**",
+            " * 初始化",
+            " **/",
+            "${The}Controller.pototype.init = function () {",
+            "\tvar self = this;",
+            "\tself.ready();",
+            "}",
+            "",
+            "/**",
+            " * 默认 action",
+            " **/",
+            "${The}Controller.pototype.index = function () {",
+            "\tvar self = this;",
+            "\tself.render(\"${view}\");",
+            "}",
+            "",
+            "module.exports = ${The}Controller;",
             "$0"
         ],
         "description": "创建一个 Nokit MVC Controller"
