@@ -1,0 +1,7 @@
+Nokit View If-Else
+<% if(${expr}){ %>
+    $1
+<% } else{ %>
+    $2
+<% } %>
+$0

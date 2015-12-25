@@ -1,0 +1,58 @@
+{
+    "nokit-view-code": {
+        "prefix": "nokit-view-code",
+        "body": [
+            "<% $1 %>",
+            "$0"
+        ],
+        "description": "Nokit View Code Block"
+    },
+    "nokit-view-each": {
+        "prefix": "nokit-view-each",
+        "body": [
+            "<% $.each(${list},function(${i},${item}){ %>",
+            "    $1",
+            "<% }); %>",
+            "$0"
+        ],
+        "description": "Nokit View Each"
+    },
+    "nokit-view-if-else": {
+        "prefix": "nokit-view-if-else",
+        "body": [
+            "<% if(${expr}){ %>",
+            "    $1",
+            "<% } else{ %>",
+            "    $2",
+            "<% } %>",
+            "$0"
+        ],
+        "description": "Nokit View If-Else"
+    },
+    "nokit-view-if": {
+        "prefix": "nokit-view-if",
+        "body": [
+            "<% if(${expr}){ %>",
+            "    $1",
+            "<% } %>",
+            "$0"
+        ],
+        "description": "Nokit View If"
+    },
+    "nokit-view-master": {
+        "prefix": "nokit-view-master",
+        "body": [
+            "<% $.master(${layout}) %>",
+            "$0"
+        ],
+        "description": "Nokit View Master"
+    },
+    "nokit-view-print": {
+        "prefix": "nokit-view-print",
+        "body": [
+            "<%= $(x) %>",
+            "$0"
+        ],
+        "description": "Nokit View Print"
+    }
+}
