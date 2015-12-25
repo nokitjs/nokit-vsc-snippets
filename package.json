@@ -4,7 +4,7 @@
     "description": "nokitjs snippets",
     "version": "0.0.2",
     "engines": {
-        "vscode": "0.0.1"
+        "vscode": "0.10.3"
     },
     "categories": [
         "Snippets"
