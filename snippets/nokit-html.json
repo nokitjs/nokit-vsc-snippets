@@ -112,7 +112,7 @@
     "nokit-view-print": {
         "prefix": "nokit-view-print",
         "body": [
-            "<%= $(x) %>",
+            "<%= ${x} %>",
             "$0"
         ],
         "description": "Nokit View Print"
