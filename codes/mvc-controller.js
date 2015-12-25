@@ -1,12 +1,13 @@
+/*-Nokit MVC Controller-*/
 /**
- * $The$Controller
+ * $_The_$Controller
  **/
-var $The$Controller = function () { };
+var $_The_$Controller = function () { };
 
 /**
  * 初始化
  **/
-$The$Controller.prototype.init = function () {
+$_The_$Controller.prototype.init = function () {
     var self = this;
     self.ready();
 }
@@ -14,11 +15,11 @@ $The$Controller.prototype.init = function () {
 /**
  * 默认 action
  **/
-$The$Controller.prototype.index = function () {
+$_The_$Controller.prototype.index = function () {
     var self = this;
     self.render("view");
 }
 
-module.exports = $The$Controller;
+module.exports = $_The_$Controller;
 
-//$0
+/*-$0-*/

@@ -1,3 +1,4 @@
+/*-Nokit Global-*/
 /**
  * 全局应用程序类
  **/
@@ -55,4 +56,4 @@ Global.prototype.onRequestEnd = function (context, done) {
 //exports
 module.exports = Global;
 
-//$0
+/*-$0-*/

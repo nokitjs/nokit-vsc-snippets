@@ -1,12 +1,13 @@
+/*-Nokit RESTful Controller-*/
 /**
- * $The$Controller
+ * $_The_$Controller
  **/
-var $The$Controller = function () { };
+var $_The_$Controller = function () { };
 
 /**
  * 初始化
  **/
-$The$Controller.prototype.init = function () {
+$_The_$Controller.prototype.init = function () {
     var self = this;
     self.ready();
 }
@@ -14,7 +15,7 @@ $The$Controller.prototype.init = function () {
 /**
  * Create (POST)
  **/
-$The$Controller.prototype.post = function () {
+$_The_$Controller.prototype.post = function () {
     var self = this;
     self.out({});
 }
@@ -22,7 +23,7 @@ $The$Controller.prototype.post = function () {
 /**
  * Read (GET)
  **/
-$The$Controller.prototype.get = function () {
+$_The_$Controller.prototype.get = function () {
     var self = this;
     self.out({});
 }
@@ -30,7 +31,7 @@ $The$Controller.prototype.get = function () {
 /**
  * Update (PUT)
  **/
-$The$Controller.prototype.put = function () {
+$_The_$Controller.prototype.put = function () {
     var self = this;
     self.out({});
 }
@@ -38,11 +39,11 @@ $The$Controller.prototype.put = function () {
 /**
  * Delete (DELETE)
  **/
-$The$Controller.prototype.delete = function () {
+$_The_$Controller.prototype.delete = function () {
     var self = this;
     self.out({});
 }
 
-module.exports = $The$Controller;
+module.exports = $_The_$Controller;
 
-//$0
+/*-$0-*/
