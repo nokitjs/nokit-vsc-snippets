@@ -1,22 +1,46 @@
 /**
- * HomeController
+ * UserController
  **/
-var HomeController = function () { };
+var UserController = function () { };
 
 /**
  * 初始化
  **/
-HomeController.pototype.init = function () {
+UserController.prototype.init = function () {
     var self = this;
     self.ready();
 }
 
 /**
- * 默认 action
+ * Create (POST)
  **/
-HomeController.pototype.index = function () {
+UserController.prototype.post = function () {
     var self = this;
-    self.render("view");
+    self.out("{}");
 }
 
-module.exports = HomeController;
+/**
+ * Read (GET)
+ **/
+UserController.prototype.get = function () {
+    var self = this;
+    self.out("{}");
+}
+
+/**
+ * Update (PUT)
+ **/
+UserController.prototype.put = function () {
+    var self = this;
+    self.out("{}");
+}
+
+/**
+ * Delete (DELETE)
+ **/
+UserController.prototype.delete = function () {
+    var self = this;
+    self.out("{}");
+}
+
+module.exports = UserController;
