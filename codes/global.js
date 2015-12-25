@@ -53,7 +53,6 @@ Global.prototype.onRequestEnd = function (context, done) {
     done();
 };
 
-//exports
 module.exports = Global;
 
 /*-$0-*/

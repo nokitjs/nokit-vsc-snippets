@@ -5,7 +5,7 @@
 var $_The_$Controller = function () { };
 
 /**
- * 初始化
+ * 初始化方法，每次请求都会先执行 init 方法
  **/
 $_The_$Controller.prototype.init = function () {
     var self = this;
