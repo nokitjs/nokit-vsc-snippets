@@ -2,7 +2,7 @@
     "nokit-view-action-url": {
         "prefix": "nokit-view-action-url",
         "body": [
-            "<%= $.route.actionUrl(${action}) %>",
+            "<%= $.route.actionUrl(\"${action}\") %>",
             "$0"
         ],
         "description": "Nokit View Action URL"
@@ -10,7 +10,7 @@
     "nokit-view-block": {
         "prefix": "nokit-view-block",
         "body": [
-            "<% $.beginBlock(${name}) %>",
+            "<% $.beginBlock(\"${name}\") %>",
             "    $1",
             "<% $.endBlock() %>",
             "$0"
@@ -28,7 +28,7 @@
     "nokit-view-content": {
         "prefix": "nokit-view-content",
         "body": [
-            "<% $.beginContent(${name}) %>",
+            "<% $.beginContent(\"${name}\") %>",
             "    $1",
             "<% $.endContent() %>",
             "$0"
@@ -38,7 +38,7 @@
     "nokit-view-define-block": {
         "prefix": "nokit-view-define-block",
         "body": [
-            "<% $.defineBlock(${name}) %>",
+            "<% $.defineBlock(\"${name}\") %>",
             "$0"
         ],
         "description": "Nokit View Define Block"
@@ -68,7 +68,7 @@
         "body": [
             "<% if(${expr}){ %>",
             "    $1",
-            "<% } else{ %>",
+            "<% } else { %>",
             "    $2",
             "<% } %>",
             "$0"
@@ -88,7 +88,7 @@
     "nokit-view-include": {
         "prefix": "nokit-view-include",
         "body": [
-            "<%= $.include(${view}) %>",
+            "<%= $.include(\"${view}\") %>",
             "$0"
         ],
         "description": "Nokit View Include"
@@ -96,7 +96,7 @@
     "nokit-view-master": {
         "prefix": "nokit-view-master",
         "body": [
-            "<% $.master(${layout}) %>",
+            "<% $.master(\"${layout}\") %>",
             "$0"
         ],
         "description": "Nokit View Master"
@@ -104,7 +104,7 @@
     "nokit-view-placeholder": {
         "prefix": "nokit-view-placeholder",
         "body": [
-            "<% $.defineBlock(${name}) %>",
+            "<% $.defineBlock(\"${name}\") %>",
             "$0"
         ],
         "description": "Nokit View PlaceHolder"
