@@ -1,4 +1,33 @@
 {
+    "nokit-filter": {
+        "prefix": "nokit-filter",
+        "body": [
+            "/**",
+            " * ${The}Filter",
+            " **/",
+            "var ${The}Filter = function () { };",
+            "",
+            "/**",
+            " * 初始化",
+            " **/",
+            "${The}Controller.prototype.init = function () {",
+            "\tvar self = this;",
+            "\tself.ready();",
+            "}",
+            "",
+            "/**",
+            " * 默认 action",
+            " **/",
+            "${The}Controller.prototype.index = function () {",
+            "\tvar self = this;",
+            "\tself.render(\"${view}\");",
+            "}",
+            "",
+            "module.exports = ${The}Controller;",
+            "$0"
+        ],
+        "description": "创建一个 Nokit MVC Controller"
+    },
     "nokit-mvc-controller": {
         "prefix": "nokit-mvc-controller",
         "body": [
