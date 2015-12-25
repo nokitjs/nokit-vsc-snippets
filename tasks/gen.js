@@ -3,7 +3,8 @@ var fs = require("fs");
 var path = require("path");
 var os = require("os");
 
-var codesPath = path.resolve(__dirname, '../codes');
+//处理 js
+var codesPath = path.resolve(__dirname, '../codes/js');
 var files = fs.readdirSync(codesPath);
 var rs = {};
 files.forEach(function (file) {
@@ -21,5 +22,7 @@ files.forEach(function (file) {
     };
 });
 var text = JSON.stringify(rs);
-var snippetsPath = path.resolve(__dirname, '../snippets/nokit.json');
+var snippetsPath = path.resolve(__dirname, '../snippets/nokit-js.json');
 fs.writeFileSync(snippetsPath, text);
+
+//处理 html

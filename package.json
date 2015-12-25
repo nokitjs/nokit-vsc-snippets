@@ -13,7 +13,11 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/nokit.json"
+                "path": "./snippets/nokit-js.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/nokit-html.json"
             }
         ]
     }
