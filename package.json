@@ -1,7 +1,7 @@
 {
     "name": "nokit-snippets",
     "publisher": "houfeng",
-    "description": "nokitjs snippets",
+    "description": "Nokit Snippets",
     "version": "0.0.4",
     "engines": {
         "vscode": "0.10.3"
