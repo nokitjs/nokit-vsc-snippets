@@ -2,8 +2,7 @@
     "nokit-view-action-url": {
         "prefix": "nokit-view-action-url",
         "body": [
-            "<%= $.route.actionUrl(\"${action}\") %>",
-            "$0"
+            "<%= $.route.actionUrl(\"${action}\") %>$0"
         ],
         "description": "Nokit View Action URL"
     },
@@ -20,8 +19,7 @@
     "nokit-view-code": {
         "prefix": "nokit-view-code",
         "body": [
-            "<% $1 %>",
-            "$0"
+            "<% $1 %>$0"
         ],
         "description": "Nokit View Code Block"
     },
@@ -112,8 +110,7 @@
     "nokit-view-print": {
         "prefix": "nokit-view-print",
         "body": [
-            "<%= ${x} %>",
-            "$0"
+            "<%= ${x} %>$0"
         ],
         "description": "Nokit View Print"
     }
