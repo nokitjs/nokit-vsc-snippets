@@ -19,37 +19,30 @@ Global.prototype.onStop = function (server, done) {
 };
 
 /**
- * 发生异常时触发
+ * 在请求发生异常时
  **/
 Global.prototype.onError = function (context, done) {
     done();
 };
 
 /**
- * 请求开始时触发
+ * 在请求到达时
  **/
-Global.prototype.onRequestBegin = function (context, done) {
+Global.prototype.onRequest = function (context, done) {
     done();
 };
 
 /**
- * 收到数据时触发
+ * 在收到请求数据时
  **/
 Global.prototype.onReceived = function (context, done) {
     done();
 };
 
 /**
- * 开始响应时触发
+ * 在发送响应时
  **/
 Global.prototype.onResponse = function (context, done) {
-    done();
-};
-
-/**
- * 请求结束时触发
- **/
-Global.prototype.onRequestEnd = function (context, done) {
     done();
 };
 

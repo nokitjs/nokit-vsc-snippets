@@ -5,37 +5,30 @@
 var $_The_$Filter = function () { };
 
 /**
- * 请求开始时触发
+ * 在请求发生异常时
  **/
-$_The_$Filter.prototype.onRequestBegin = function (context, next) {
+$_The_$Filter.prototype.onError = function (context, next) {
     next();
 };
 
 /**
- * 收到数据时触发
+ * 在请求到达时
+ **/
+$_The_$Filter.prototype.onRequest = function (context, next) {
+    next();
+};
+
+/**
+ * 在收到请求数据时
  **/
 $_The_$Filter.prototype.onReceived = function (context, next) {
     next();
 };
 
 /**
- * 开始响应时触发
+ * 在发送响应时
  **/
 $_The_$Filter.prototype.onResponse = function (context, next) {
-    next();
-};
-
-/**
- * 请求结束时触发
- **/
-$_The_$Filter.prototype.onRequestEnd = function (context, next) {
-    next();
-};
-
-/**
- * 发生异常时触发
- **/
-$_The_$Filter.prototype.onError = function (context, next) {
     next();
 };
 
