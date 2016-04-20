@@ -1,8 +1,8 @@
 {
-  "name": "nokit-vsc-snippets",
-  "displayName": "Nokit Snippets",
+  "name": "nokit",
+  "displayName": "Nokit",
   "publisher": "houfeng",
-  "description": "Nokit Snippets",
+  "description": "Nokit support for vscode",
   "version": "0.1.5",
   "engines": {
     "vscode": "0.10.3"
