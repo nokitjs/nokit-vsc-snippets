@@ -8,9 +8,31 @@
     "vscode": "0.10.3"
   },
   "categories": [
+    "Languages",
     "Snippets"
   ],
   "contributes": {
+    "languages": [
+      {
+        "id": "nsp",
+        "aliases": [
+          "nsp",
+          "NSP"
+        ],
+        "extensions": [
+          ".nsp",
+          ".nsp.html",
+          ".nsp.htm"
+        ]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "nsp",
+        "scopeName": "text.html.js",
+        "path": "./syntaxes/nsp.tmLanguage"
+      }
+    ],
     "snippets": [
       {
         "language": "javascript",
