@@ -3,7 +3,7 @@ var fs = require("fs");
 var path = require("path");
 var os = require("os");
 
-function gen(inPath, outFile) {
+function generate(inPath, outFile) {
     var codesPath = path.resolve(__dirname, inPath);
     var files = fs.readdirSync(codesPath);
     var rs = {};
@@ -27,6 +27,6 @@ function gen(inPath, outFile) {
 };
 
 //处理 js
-gen('../codes/js', '../snippets/nokit-js.json');
+generate('../snippets-codes/javascript', '../snippets/javascript.json');
 //处理 html
-gen('../codes/html', '../snippets/nokit-html.json');
+generate('../snippets-codes/html', '../snippets/html.json');

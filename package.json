@@ -14,11 +14,15 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/nokit-js.json"
+        "path": "./snippets/javascript.json"
       },
       {
         "language": "html",
-        "path": "./snippets/nokit-html.json"
+        "path": "./snippets/html.json"
+      },
+      {
+        "language": "nsp",
+        "path": "./snippets/html.json"
       }
     ]
   },
@@ -28,5 +32,8 @@
     "vscode",
     "snippets",
     "snippet"
-  ]
+  ],
+  "scripts": {
+    "gen": "node ./bin/snippets-generator.js"
+  }
 }
